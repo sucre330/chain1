@@ -25,7 +25,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
 				"name": "sayHello",
 				"outputs": [
 					{
@@ -43,6 +49,11 @@
 						"internalType": "string",
 						"name": "_message",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
 					}
 				],
 				"name": "setMessage",
@@ -79,11 +90,11 @@
 	},
 	"sources": {
 		"Test/HelloWorld.sol": {
-			"keccak256": "0x065ea561336ad4d5ea7bdf175af91d6f8508ce1c4d9b2fb634056025baa2db4b",
+			"keccak256": "0xf91a022effd6dbb9f562a659bce0a1a9c0d57214b5e41c832dcc52bfd854c8d1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a5fe2aedd2f1e6367e34e01da4c2f3dfb0bc42d317df447d81bb4195f83039d7",
-				"dweb:/ipfs/QmQn7tpVASZmDFNiGe8Qwb9mtKf8XaCDFYjUuJds6oPH5m"
+				"bzz-raw://870f2308f55d6d4e54fa998c744fdd6773d57f324de1be53f359259f43f033b9",
+				"dweb:/ipfs/Qmd4aXAmVAETvx9jsLxY6UbtcDDijEM8RxcL2q3bCTGGns"
 			]
 		}
 	},
